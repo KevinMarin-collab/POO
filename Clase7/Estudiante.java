@@ -73,10 +73,10 @@ public class Estudiante {
     }
 
     public String toString() {
-        return "Estudiante { id:" + id +
+        return "Estudiante [ id:" + id +
                 " nombre:" + nombre +
                 " apellido:" + apellido +
                 " edad:" + edad +
-                " facultad:" + facultad + "}";
+                " facultad:" + facultad + "]";
     }
 }
