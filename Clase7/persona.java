@@ -16,7 +16,8 @@ public class persona {
         this.cedula = cedula;
         this.peso = peso;
     }
-
+    
+    // El metodo toString sirve para visualizar los objetos
     public String toString(){
         return "Persona [ Nombre: " + nombre + " Apellido: " + apellido + " Edad: " + edad + " Cedula: " +  cedula +  " Peso: " + peso + "]";
     }
