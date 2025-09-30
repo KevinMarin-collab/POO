@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class OperacionesMatematicas {
 
@@ -22,7 +23,7 @@ public class OperacionesMatematicas {
 
     public double dividir(){
         double resultado;
-        if (b == 0){
+        if (num2 == 0){
             resultado = 0.0;
         }
         else {
@@ -30,4 +31,16 @@ public class OperacionesMatematicas {
         }
         return resultado;
     }
+
+public class OperMate {
+     public int leerEnteros(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite el primer valor: ");
+        int num1 = sc.nextInt();
+        sc.close();
+        return num1;
+    }
+}
+   
+
 }
